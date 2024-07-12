@@ -1,0 +1,58 @@
+#`THIS IS MAINLY THE RESULT OF DATAMINING AND WASN'T TESTED IN DEPTH`
+
+#`USEFUL CONDITIONS`
+Condition; FLEW_TO_SS;                              Useful; Alpha pilot achievement (Fly to the Sun Station)
+Condition; THERE_IS_BUT_VOID;                       Useful; Die hard achievement - (1000 damages healed)
+Condition; DESTROYED_TIMELINE_LAST_SAVE;            Useful; Destroyed Timeline (can be triggered multiple times)
+Condition; GAME_OVER_LAST_SAVE;                     Useful; Triggered game over
+
+#`ALL THE CONDITIONS BELOW ARE NOT CONSIDERED USEFUL AND ARE NOT INCLUDED IN THE MAIN CSV`
+#`Cool but useless things`
+Condition; HAS_SEEN_SUN_EXPLODE;                    Misc;   Has seen sun explode
+Condition; KILLED_BY_SUPERNOVA_AND_KNOWS_IT;        Misc;   Has seen sun explode and been killed by the supernova (3rd loop minimum)
+Condition; AUTOPILOT_INTO_SUN;                      Misc;   Autopilot into the sun
+Condition; KILLED_IN_GHOST_MATTER;                  Misc;   Killed in ghost matter (minimum loop 2)
+
+#`Stranger things`
+Condition; HAS_DOZED_INTO_DREAM_WORLD;              DLC;    Enter Dream World
+Condition; HAS_COMPLETED_DREAM_ZONE_2;              DLC;    Completed Dream Zone 2
+Condition; HIDE_TEMPLE_BASEMENT_ENTRIES;            DLC;    Enter Hidden's george temple basement. Equivalent to Fact IP_ZONE_3_LAB_X4
+Condition; MARK_ON_HUD_TUTORIAL_COMPLETE;           DLC;    Slate Shiplog tutorial Complete (Put a mark on the Stranger in the Shiplog)
+Condition; COMPLETED_SHIPLOG_TUTORIAL;              DLC;    Now Unused? - Supposed to be linked to Slate's Shiplog tutorial
+
+#`Gabbro things`
+Condition; TALKED_TO_GABBRO;                        Gabbro; Talked to Gabbro
+Condition; GABBRO_MERGE_TRIGGERED;                  Gabbro; Talk to Gabbro again (?)
+Condition; KNOWS_MEDITATION;                        Gabbro; Unlocked Meditation
+
+#`Has done X`
+Condition; HAS_USED_JETPACK;                        Action; Has used Jetpack (triggered after 5 seconds?)
+Condition; PREFLIGHT_CHECKLIST_UNLOCKED;            Action; Has used boosters and unlocked the preflight checklist (triggered after 2 seconds?)
+Condition; SUIT_BOOSTER_FIRED;                      Action; Has used boosters (triggered after a few more seconds?)
+
+Condition; HAS_AIMED_TRANSLATOR;                    Action; Has aimed translator (requires wearing the suit)
+Condition; HAS_USED_TRANSLATOR;                     Action; Has used translator (requires wearing the suit)
+
+Condition; HAS_RETRIEVED_PROBE;                     Action; Has retrieved probe
+Condition; HAS_ROTATED_PROBE_CAMERA;                Action; Has rotated camera (at least 3 times)
+Condition; HAS_TAKEN_HANDHELD_SNAPSHOT;             Action; Has taken handeld snapshot
+Condition; HAS_TAKEN_MIDAIR_SNAPSHOT;               Action; Has taken midair snapshot
+
+Condition; HAS_PLAYER_LOCKED_ON_MAP;                Action; Locked on while in map view
+Condition; HAS_PLAYER_LOCKED_ON;                    Action; Locked on something (not in training suit)
+
+Condition; HAS_USED_SHIPLOG;                        Action; Has used shiplog
+Condition; HAS_USED_SLIDE_PROJECTOR;                Action; Has used slide projector
+Condition; HAS_USED_PREFLIGHT_CHECKLIST;            Action; Has used preflight checklist
+Condition; HAS_USED_MAP_SUIT;                       Action; Has used map from the suit
+Condition; HAS_USED_MAP_SHIP;                       Action; Has used map from the cockpit
+
+Condition; HAS_FOCUSED_IN_DREAM;                    Action; Has focused in dream
+Condition; HAS_CONCEALED_IN_DREAM;                  Action; Has concealed in dream
+Condition; HAS_CONCEALED_FROM_GHOSTS;               Action; Has concealed from ghosts
+
+#`The game doesn't save when those are unlocked, making them useless for our purpose`
+Condition; PLAYER_ENTERED_TIMELOOPCORE;             Unusable;   Player entered ATP - Game doesn't save, will be triggered next time something is saved
+Condition; PROBE_ENTERED_TIMELOOPCORE;              Unusable;   Probe entered ATP - Game doesn't save, will be triggered next time something is saved
+Condition; PLAYER_ENTERED_TIMELOOPCORE_MULTIPLE;    Unusable;   Player entered ATP again - Game doesn't save, will be triggered next time something is saved
+Condition; LAUNCH_CODES_GIVEN;                      Unusable;   Launch Codes unlocked - Game doesn't save, will be triggered next time something is saved

@@ -1,0 +1,295 @@
+Condition; FLEW_TO_SS;                              Alpha pilot achievement (Fly to the Sun Station)
+Condition; THERE_IS_BUT_VOID;                       Die hard achievement - (1000 damages healed)
+Condition; DESTROYED_TIMELINE_LAST_SAVE;            Destroyed Timeline (can be triggered multiple times)
+Condition; GAME_OVER_LAST_SAVE;                     Triggered game over
+----------------------------------------------------------------------------------------------------
+Signal; 10; Traveler    ; Esker
+Signal; 11; Traveler    ; Chert
+Signal; 12; Traveler    ; Riebeck
+Signal; 13; Traveler    ; Gabbro
+Signal; 14; Traveler    ; Feldspar
+Signal; 15; Traveler    ; Nomai
+Signal; 16; Traveler    ; Prisoner
+Signal; 25; Quantum     ; Quantum Moon
+Signal; 20; Quantum     ; Ember Twin Shard
+Signal; 21; Quantum     ; Timber Hearth Museum Shard
+Signal; 22; Quantum     ; Timber Hearth Grove Shard
+Signal; 23; Quantum     ; Brittle Hollow Shard
+Signal; 24; Quantum     ; Giant's Deep Shard
+Signal; 31; Escape Pod  ; Brittle Hollow
+Signal; 30; Escape Pod  ; Ember Twin
+Signal; 32; Escape Pod  ; Dark Bramble
+Signal; 60; Hide & Seek ; Galena
+Signal; 61; Hide & Seek ; Tephra
+Signal; 100; Radio      ; Radio Tower
+Signal; 101; Radio      ; Satellite
+----------------------------------------------------------------------------------------------------
+Fact; S_SUNSTATION_X1       ;Sun Station; Upper level - Scroll (in wall), -Read 1st node
+Fact; S_SUNSTATION_X4       ;Sun Station; Lower level - Nomai computer - Read any ring
+Fact; S_SUNSTATION_X2       ;Sun Station; Lower level - Ash Twin Stone (on bench) - Read 2nd node
+Fact; S_SUNSTATION_X3       ;Sun Station; Lower level - Ash Twin Stone (on bench) - Read 5th node (left)
+
+Fact; TT_WARP_TOWERS_X1     ;Ash Twin;                  Twins, Brittle Hollow or Sun Station Tower - Any of these 3 texts, Read the 1st node
+Fact; TT_WARP_TOWERS_X2     ;Ash Twin;                  Brittle Hollow tower text - Read 4th node (up)
+Fact; TT_TIME_LOOP_DEVICE_X1;Ash Twin;Ash Twin Project; Enter the ATP
+Fact; TT_TIME_LOOP_DEVICE_X4;Ash Twin;Ash Twin Project; 2nd text from the right - Read 1st node
+Fact; TT_TIME_LOOP_DEVICE_X3;Ash Twin;Ash Twin Project; 3rd text from the right - Read 1st node
+Fact; TT_TIME_LOOP_DEVICE_X2;Ash Twin;Ash Twin Project; Nomai computer (near masks) - Read middle ring
+Fact; TT_TIME_LOOP_DEVICE_X5;Ash Twin;Ash Twin Project; Nomai computer (near the controls) - Read either ring
+
+Fact; CT_CHERT_X1               ;Ember Twin;Chert's Camp           ; Talk to Chert
+Fact; CT_CHERT_X2               ;Ember Twin;Chert's Camp           ; Talk to Chert in state 1 or 2 (Chipper or Nervous)
+Fact; CT_CHERT_X3               ;Ember Twin;Chert's Camp           ; Talk to Chert in state 3 (Panicked)
+Fact; CT_CHERT_X4               ;Ember Twin;Chert's Camp           ; Talk to Chert in state 3 (Panicked) and ask Why are the stars dying?
+Fact; CT_CHERT_X5               ;Ember Twin;Chert's Camp           ; Talk to Chert in state 4 (Catatonia)
+Fact; CT_QUANTUM_MOON_LOCATOR_X2;Ember Twin;Quantum Moon Locator   ; Scroll (in wall) - Read 3rd node (left, down)
+Fact; CT_QUANTUM_MOON_LOCATOR_X1;Ember Twin;Quantum Moon Locator   ; Scroll (near campfire) - Read 1st node
+Fact; CT_QUANTUM_MOON_LOCATOR_X3;Ember Twin;Quantum Moon Locator   ; Scroll (near campfire) - Read 3rd (up) or 4th (left) node
+Fact; CT_GRAVITY_CANNON_X1      ;Ember Twin;Gravity Cannon         ; Activate the gravity cannon
+Fact; CT_GRAVITY_CANNON_X2      ;Ember Twin;Gravity Cannon         ; Recall the frozen shuttle
+Fact; COMET_SHUTTLE_X2          ;Ember Twin;Gravity Cannon         ; Recording Inside Shuttle - Read 2nd page
+Fact; COMET_SHUTTLE_X4          ;Ember Twin;Gravity Cannon         ; Recording Inside Shuttle - Read 4th page
+Fact; CT_ESCAPE_POD_X1          ;Ember Twin;Escape Pod             ; Read any of the Nomai computer rings OR Read 1st page of the upper recording
+Fact; CT_ESCAPE_POD_X2          ;Ember Twin;Escape Pod             ; Read any of the Nomai computer rings
+Fact; CT_HIGH_ENERGY_LAB_X1     ;Ember Twin;High Energy Lab        ; Scroll (on floor lower level) - Read 1st node
+Fact; CT_HIGH_ENERGY_LAB_X2     ;Ember Twin;High Energy Lab        ; Scroll (in wall upper level) - Read 2nd node
+--^ OR Scroll (on floor lower level) - Read 4th node (right)
+Fact; CT_HIGH_ENERGY_LAB_X3     ;Ember Twin;High Energy Lab        ; Scroll (in wall upper level) - Read 3rd node
+Fact; CT_WARP_TOWER_MAP_X1      ;Ember Twin;High Energy Lab        ; Upper level - Look at the mural from up close
+Fact; CT_WARP_TOWER_MAP_X2      ;Ember Twin;High Energy Lab        ; Scroll (on floor upper level) - Read 1st node
+Fact; CT_WARP_TOWER_MAP_X4      ;Ember Twin;High Energy Lab        ; Scroll (on floor upper level) - Read 3rd node (up)
+Fact; CT_WARP_TOWER_MAP_X3      ;Ember Twin;High Energy Lab        ; Scroll (on floor upper level) - Read 4th node (up, right)
+Fact; CT_SUNLESS_CITY_X1        ;Ember Twin;Sunless City           ; Enter the Sunless City
+Fact; CT_SUNLESS_CITY_X2        ;Ember Twin;Sunless City           ; Tree area text - Read 3rd node (up, left)
+Fact; CT_SUNLESS_CITY_X3        ;Ember Twin;Sunless City           ; Eye shrine entryway text - Read 3rd node
+Fact; CT_ANGLERFISH_FOSSIL_R1   ;Ember Twin;Sunless City           ; Shoot a scout in the fossil room
+Fact; CT_ANGLERFISH_FOSSIL_X1   ;Ember Twin;Sunless City           ; Fossil room text (on floor) - Read 2nd node
+--Fact; CT_ANGLERFISH_FOSSIL_X2   ;Ember Twin;Sunless City           ; Fossil room text (on floor) - Read 2nd node--Unnecessary
+Fact; CT_ANGLERFISH_FOSSIL_X3   ;Ember Twin;Sunless City           ; Fossil room scroll (in wall) - Read 2nd node (up-right)
+Fact; CT_QUANTUM_CAVES_X2       ;Ember Twin;Quantum Caves          ; Scan the Quantum Shard
+Fact; CT_QUANTUM_CAVES_X1       ;Ember Twin;Quantum Caves          ; Forking cave scroll (in wall) - Read 1st node
+Fact; CT_LAKEBED_CAVERN_X1      ;Ember Twin;Quantum Caves          ; Lakebed cave text (on floor) - Read 3rd node (left w/ back to the shard)
+Fact; CT_LAKEBED_CAVERN_X2      ;Ember Twin;Quantum Caves          ; Enclosed cave text (on wall) - Read 3rd node (up)
+Fact; CT_LAKEBED_CAVERN_X3      ;Ember Twin;Quantum Caves          ; Enclosed cave text (on wall) - Read 4th node (up)
+
+--Fact; TH_VILLAGE_X1         ;Timber Hearth;Village      ; Unlocked from the start--Impossible to unlock
+Fact; TH_VILLAGE_X2         ;Timber Hearth;Village      ; Watch the statue cutscene
+Fact; TH_VILLAGE_X3         ;Timber Hearth;Village      ; Hal dialogue - Any option 1st prompt, 2nd option 2nd prompt
+Fact; TH_ZERO_G_CAVE_X1     ;Timber Hearth;Village      ; 0g cave - Enter the central room
+Fact; TH_ZERO_G_CAVE_X2     ;Timber Hearth;Village      ; 0g cave - Repair the satellite
+Fact; TH_IMPACT_CRATER_X1   ;Timber Hearth;Crater       ; Tektite dialogue - Any option
+Fact; TH_IMPACT_CRATER_X2   ;Timber Hearth;Crater       ; Bramble seed - Scan seed
+Fact; TH_IMPACT_CRATER_X3   ;Timber Hearth;Crater       ; Bramble seed - Launch a scout into the seed
+Fact; TH_NOMAI_MINE_X1      ;Timber Hearth;Nomai mines  ; Ash Twin stone text - Read 2nd node (left)
+--Fact; TH_NOMAI_MINE_X2      ;Timber Hearth;Nomai mines  ; Ash Twin stone text - Read 2nd node (left)--Unnecessary
+Fact; TH_NOMAI_MINE_X3      ;Timber Hearth;Nomai mines  ; Text (outside underwater) - Read 1st node
+Fact; TH_QUANTUM_SHARD_X1   ;Timber Hearth;Quantum Grove; Scan the quantum shard
+Fact; TH_QUANTUM_SHARD_X2   ;Timber Hearth;Quantum Grove; Look at poem
+Fact; TH_RADIO_TOWER_X1     ;Timber Hearth;Radio Tower  ; Listen to the recording
+Fact; TM_ESKER_X1           ;Timber Hearth;Attlerock    ; Esker's Camp - Talk to Esker
+Fact; TM_NORTH_POLE_X1      ;Timber Hearth;Attlerock    ; Lunar Lookout - Read pedestal text
+Fact; TM_EYE_LOCATOR_X1     ;Timber Hearth;Attlerock    ; Eye signal locator scroll (in wall) - Read 1st node
+Fact; TM_EYE_LOCATOR_X2     ;Timber Hearth;Attlerock    ; Eye signal locator scroll (in wall) - Read 2nd node
+
+Fact; BH_RIEBECK_X1                 ;Brittle Hollow;Riebeck's camp              ; Talk to Riebeck
+Fact; BH_RIEBECK_X2                 ;Brittle Hollow;Riebeck's camp              ; Talk to Riebeck and ask "What are you doing here" (3rd option)
+Fact; BH_GRAVITY_CANNON_X1          ;Brittle Hollow;Gravity Cannon              ; Activate the gravity cannon
+Fact; BH_GRAVITY_CANNON_X2          ;Brittle Hollow;Gravity Cannon              ; Recall Solanum's shuttle
+Fact; QM_SHUTTLE_X1                 ;Brittle Hollow;Gravity Cannon              ; Recording in shuttle - Read page 2
+Fact; QM_SHUTTLE_X2                 ;Brittle Hollow;Gravity Cannon              ; Recording in shuttle - Read page 3
+Fact; BH_QUANTUM_RESEARCH_TOWER_X2  ;Brittle Hollow;Tower of Quantum Knowledge  ; Scroll (in shelf middle level) - Read 1st node
+Fact; BH_QUANTUM_RESEARCH_TOWER_X3  ;Brittle Hollow;Tower of Quantum Knowledge  ; Scroll (in shelf middle level) - Read 4th node
+Fact; BH_QUANTUM_RESEARCH_TOWER_X1  ;Brittle Hollow;Tower of Quantum Knowledge  ; Scroll (in wall upper level) - Read 3rd node
+Fact; BH_QUANTUM_SHARD_X1           ;Brittle Hollow;Quantum Shard Tower         ; Text wall - Read 1st node
+Fact; BH_QUANTUM_SHARD_X3           ;Brittle Hollow;Quantum Shard Tower         ; Text wall - Read 2nd node (left)
+Fact; BH_QUANTUM_SHARD_X2           ;Brittle Hollow;Quantum Shard Tower         ; Text wall - Read 4th node (up)
+Fact; BH_ESCAPE_POD_X1              ;Brittle Hollow;Escape Pod                  ; Recording - Read page 2/13
+Fact; BH_ESCAPE_POD_X2              ;Brittle Hollow;Escape Pod                  ; Read any of the Nomai computer rings
+Fact; BH_OLD_SETTLEMENT_X1          ;Brittle Hollow;Old Settlement              ; Entry Rock - Read 2nd node
+Fact; BH_OLD_SETTLEMENT_X4          ;Brittle Hollow;Old Settlement              ; Back Wall - Read 1st node
+Fact; BH_OLD_SETTLEMENT_X2          ;Brittle Hollow;Old Settlement              ; Eye Building - Read 1st node
+Fact; BH_OLD_SETTLEMENT_X3          ;Brittle Hollow;Old Settlement              ; Eye Building - Read 2nd node(up)
+Fact; BH_MURAL_1_X1                 ;Brittle Hollow;Old Settlement              ; Under Eye Building - Look at left mural
+Fact; BH_MURAL_2_X1                 ;Brittle Hollow;Old Settlement              ; Under Eye Building - Look at middle mural
+Fact; BH_MURAL_3_X1                 ;Brittle Hollow;Old Settlement              ; Under Eye Building - Look at right mural
+Fact; BH_HANGING_CITY_X1            ;Brittle Hollow;Hanging City                ; Enter the Hanging City
+Fact; BH_HANGING_CITY_X2            ;Brittle Hollow;Hanging City                ; Raise the Black Hole Forge
+Fact; BH_HANGING_CITY_X3            ;Brittle Hollow;Hanging City                ; Scroll (Middle Wall) - Read 1st node
+Fact; BH_HANGING_CITY_X4            ;Brittle Hollow;Hanging City                ; Eye Shrine Wall - Read 3rd node
+Fact; BH_BLACK_HOLE_FORGE_X1        ;Brittle Hollow;Black Hole Forge            ; Scroll (in wall) - Read 2nd node (either)
+Fact; BH_BLACK_HOLE_FORGE_X4        ;Brittle Hollow;Black Hole Forge            ; Scroll (on shelf) - Read 2nd node
+Fact; BH_BLACK_HOLE_FORGE_X5        ;Brittle Hollow;Black Hole Forge            ; Scroll (on shelf) - Read 3rd node
+Fact; BH_BLACK_HOLE_FORGE_X6        ;Brittle Hollow;Black Hole Forge            ; Scroll (on shelf) - Read 4th node (down)
+Fact; BH_WARP_ALIGNMENT_MAP_X1      ;Brittle Hollow;Black Hole Forge            ; Wall - Look at the diagram
+Fact; BH_WARP_ALIGNMENT_MAP_X2      ;Brittle Hollow;Black Hole Forge            ; Wall - Read 2nd node (up)
+Fact; BH_WARP_ALIGNMENT_MAP_X3      ;Brittle Hollow;Black Hole Forge            ; Wall - Read 3rd node (up)
+Fact; BH_WARP_ALIGNMENT_MAP_X4      ;Brittle Hollow;Black Hole Forge            ; Wall - Read 4th node (up)
+Fact; BH_BLACK_HOLE_FORGE_X3        ;Brittle Hollow;Black Hole Forge            ; Stone - Read 1st node
+Fact; BH_OBSERVATORY_X1             ;Brittle Hollow;Observatory                 ; Scroll (wall controls) - Read 3rd node (up)
+Fact; BH_OBSERVATORY_X2             ;Brittle Hollow;Observatory                 ; Scroll (wall controls) - Read 2nd node (right)
+Fact; BH_OBSERVATORY_X3             ;Brittle Hollow;Observatory                 ; Scroll (wall away from stairs) - Read 2nd node (up)
+Fact; BH_OBSERVATORY_X4             ;Brittle Hollow;Observatory                 ; Scroll (wall away from stairs) - Read 3rd node (up, down)
+Fact; BH_TORNADO_SIMULATION_X1      ;Brittle Hollow;Observatory                 ; Scroll (tornado wall) - Read 4th node (right)
+Fact; BH_TORNADO_SIMULATION_X2      ;Brittle Hollow;Observatory                 ; Scroll (tornado wall) - Read 4th node (left)
+Fact; BH_WARP_RECEIVER_X1           ;Brittle Hollow;White Hole exit city         ; Scroll (in wall upper level) - Read 1st node
+--Fact; BH_WARP_RECEIVER_X2           ;Brittle Hollow;White Hole exit city         ; Scroll (in wall upper level) - Read 1st node--Unnecessary
+Fact; WHS_X1                        ;Brittle Hollow;White Hole Station          ; Wall - Read 2nd node
+Fact; WHS_X2                        ;Brittle Hollow;White Hole Station          ; Stone - Read 1st node
+Fact; WHS_X3                        ;Brittle Hollow;White Hole Station          ; Stone - Read 3rd node (down)
+--Fact; WHS_X4                        ;Brittle Hollow;White Hole Station          ; Wall - Read 2nd node--Unnecessary
+Fact; VM_VOLCANO_X1                 ;Brittle Hollow;Hollow's Lantern            ; Wall - Read 1st node
+Fact; VM_VOLCANO_X2                 ;Brittle Hollow;Hollow's Lantern            ; Wall - Read 3rd node
+Fact; VM_VOLCANO_X3                 ;Brittle Hollow;Hollow's Lantern            ; Wall - Read 6th node (right)
+
+Fact; GD_OCEAN_X1               ;Giant's Deep; Reach below the current
+Fact; GD_OCEAN_X2               ;Giant's Deep; Reach below the electic barrier
+Fact; GD_GABBRO_ISLAND_X0       ;Giant's Deep;Gabbro's Island           ; Talk to Gabbro
+Fact; GD_GABBRO_ISLAND_X1       ;Giant's Deep;Gabbro's Island           ; Talk to Gabbro loop 1+
+Fact; GD_GABBRO_ISLAND_X2       ;Giant's Deep;Gabbro's Island           ; Talk to Gabbro loop 2+
+Fact; GD_GABBRO_ISLAND_X3       ;Giant's Deep;Gabbro's Island           ; Talk to Gabbro loop 3+
+Fact; GD_CONSTRUCTION_YARD_X3   ;Giant's Deep;Construction Yard         ; Read text ring
+Fact; GD_CONSTRUCTION_YARD_X2   ;Giant's Deep;Construction Yard         ; Control Module Stone (next to wall) - Read 1st node
+Fact; GD_CONSTRUCTION_YARD_X1   ;Giant's Deep;Construction Yard         ; Scroll - Read 1st node
+Fact; GD_BRAMBLE_ISLAND_X1      ;Giant's Deep;Bramble Island            ; Listen to the recording next to the campfire
+Fact; GD_STATUE_ISLAND_X1       ;Giant's Deep;Statue Island             ; Outside - Read the sign
+Fact; GD_STATUE_ISLAND_X2       ;Giant's Deep;Statue Island             ; Outside - Look at the Statue on the ground
+Fact; GD_STATUE_WORKSHOP_X1     ;Giant's Deep;Statue Island             ; Recording - Read page 2/6
+Fact; GD_STATUE_WORKSHOP_X2     ;Giant's Deep;Statue Island             ; Recording - Read page 6/6
+Fact; GD_STATUE_WORKSHOP_X3     ;Giant's Deep;Statue Island             ; Ash Twin Stone - Read 3rd node
+Fact; GD_QUANTUM_TOWER_X1       ;Giant's Deep;Tower of Quantum Trials   ; Read the welcome Sign before funnel
+Fact; GD_QUANTUM_TOWER_X2       ;Giant's Deep;Tower of Quantum Trials   ; Read Sign of the 2nd puzzle
+Fact; GD_QUANTUM_TOWER_X3       ;Giant's Deep;Tower of Quantum Trials   ; Bottom floor Wall - Read 1st node
+Fact; GD_QUANTUM_TOWER_X4       ;Giant's Deep;Tower of Quantum Trials   ; Bottom floor Wall - Read 2nd node
+Fact; OPC_SUNKEN_MODULE_X3      ;Giant's Deep;Probe Tracking Module     ; Ash Twin Stone - Read 1st node
+Fact; OPC_SUNKEN_MODULE_X1      ;Giant's Deep;Probe Tracking Module     ; Position 3 - Read Middle Ring
+Fact; OPC_SUNKEN_MODULE_X2      ;Giant's Deep;Probe Tracking Module     ; Position 3 - Read Bottom Ring
+Fact; OPC_EYE_COORDINATES_X1    ;Giant's Deep;Probe Tracking Module     ; Position 4 - Read Bottom Ring
+
+Fact; ORBITAL_PROBE_CANNON_X1   ;Orbital Probe Cannon; Enter the Orbital Probe Cannon
+Fact; ORBITAL_PROBE_CANNON_X2   ;Orbital Probe Cannon;Control Module    ; Launch Module Stone - Read 1st node
+Fact; ORBITAL_PROBE_CANNON_X3   ;Orbital Probe Cannon;Control Module    ; Launch Module Stone - Read 3rd node 3 (up)
+Fact; OPC_INTACT_MODULE_X1      ;Orbital Probe Cannon;Control Module    ; Position 1 - Read any of the 2 rings
+Fact; OPC_INTACT_MODULE_X2      ;Orbital Probe Cannon;Control Module    ; Position 2 - Read the top or bottom ring
+Fact; OPC_BROKEN_MODULE_X1      ;Orbital Probe Cannon;Launch Module     ; Enter the Launch Module
+Fact; OPC_BROKEN_MODULE_X2      ;Orbital Probe Cannon;Launch Module     ; Probe Tracking Module Stone (on bench) - Read 4th node
+Fact; OPC_BROKEN_MODULE_X3      ;Orbital Probe Cannon;Launch Module     ; Probe Tracking Module Stone (on bench) - Read 5th node
+
+Fact; DB_FELDSPAR_X1        ;Dark Bramble;Feldspar's Camp   ; Talk to Feldspar
+Fact; DB_FELDSPAR_X2        ;Dark Bramble;Feldspar's Camp   ; Ask Feldspar "Where should I explore here?" (2nd option)
+Fact; DB_FELDSPAR_X3        ;Dark Bramble;Feldspar's Camp   ; Ask Feldspar "Shouldn’t I tell ground control to come get you?" (6th option)
+Fact; DB_FROZEN_JELLYFISH_X1;Dark Bramble;Frozen Jellyfish  ; Listen to the Recording
+--Fact; DB_FROZEN_JELLYFISH_X2;Dark Bramble;Frozen Jellyfish  ; Listen to the Recording--Unnecessary
+Fact; DB_FROZEN_JELLYFISH_X3;Dark Bramble;Frozen Jellyfish  ; Read the note in the Jellyfish
+Fact; DB_ESCAPE_POD_X1      ;Dark Bramble;Escape Pod        ; Upstair Recording - Read page 1
+Fact; DB_ESCAPE_POD_X2      ;Dark Bramble;Escape Pod        ; Upstair Recording - Read page 3
+Fact; DB_ESCAPE_POD_X3      ;Dark Bramble;Escape Pod        ; Downstair Recording - Read page 1
+Fact; DB_NOMAI_GRAVE_X1     ;Dark Bramble;Nomai Grave       ; Recording - Read page 1
+Fact; DB_NOMAI_GRAVE_X2     ;Dark Bramble;Nomai Grave       ; Recording - Read page 2
+Fact; DB_NOMAI_GRAVE_X3     ;Dark Bramble;Nomai Grave       ; Recording - Read page 4
+Fact; DB_NOMAI_GRAVE_X4     ;Dark Bramble;Vessel            ; Take a picture of the Vessel with your scout
+Fact; DB_VESSEL_X1          ;Dark Bramble;Vessel            ; Enter the Vessel central room
+Fact; DB_VESSEL_X2          ;Dark Bramble;Vessel            ; Put the Broken Warp Core in its slot
+Fact; DB_VESSEL_X3          ;Dark Bramble;Vessel            ; Raise the coordinate input device
+Fact; DB_VESSEL_X4          ;Dark Bramble;Vessel            ; Blue text wall - Read 4th node
+Fact; DB_VESSEL_X5          ;Dark Bramble;Vessel            ; Orange text wall - Read 2nd node
+Fact; DB_VESSEL_X6          ;Dark Bramble;Vessel            ; Recording - Read 1st page
+
+Fact; QUANTUM_MOON_X1       ;Quantum Moon;Normal QM ; Enter the Quantum Moon
+Fact; QUANTUM_MOON_X2       ;Quantum Moon;Normal QM ; Find Solanum's Body
+Fact; QM_SHRINE_X1          ;Quantum Moon;Normal QM ; Quantum Shrine - Read any of the text
+Fact; QM_SHRINE_X3          ;Quantum Moon;Normal QM ; Quantum Shrine - Read the 1st text
+Fact; QM_SHRINE_X2          ;Quantum Moon;Normal QM ; Quantum Shrine - Read the 2nd text
+Fact; QM_SHRINE_X4          ;Quantum Moon;Normal QM ; Quantum Shrine - Read the 3rd text
+Fact; QM_SIXTH_LOCATION_X1  ;Quantum Moon;6th QM    ; Talk with Solanum
+Fact; QM_SIXTH_LOCATION_X2  ;Quantum Moon;6th QM    ; Explain + Eye (3) or Eye + Me (2) or Eye + QM (5)
+Fact; QM_SIXTH_LOCATION_X3  ;Quantum Moon;6th QM    ; Explain + QM (3) or Identify + QM (2)
+Fact; QM_SIXTH_LOCATION_X4  ;Quantum Moon;6th QM    ; Explain + Eye (2) or Explain + QM (4)
+Fact; QM_SIXTH_LOCATION_X5  ;Quantum Moon;6th QM    ; Eplain + You (3) or Identify + Eye (1) or QM + You (1)
+Fact; QM_SIXTH_LOCATION_X6  ;Quantum Moon;6th QM    ; Eye + You (4) or QM + You (2)
+
+Fact; COMET_SHUTTLE_X1  ;Interloper ;Comet's Back   ; Recording outside Shuttle - Read page 1
+Fact; COMET_SHUTTLE_X3  ;Interloper ;Comet's Back   ; Recording outside Shuttle - Read page 5
+Fact; COMET_INTERIOR_X1 ;Interloper ;Inside's,Core  ; Reach the Interloper's Core
+Fact; COMET_INTERIOR_X2 ;Interloper ;Inside's,Core  ; Recording - Read page 1
+Fact; COMET_INTERIOR_X3 ;Interloper ;Inside's,Core  ; Recording - Read page 6
+Fact; COMET_INTERIOR_X4 ;Interloper ;Inside's,Core  ; Recording - Read page 9
+
+Fact; IP_RING_WORLD_X1          ;The Stranger; Enter the Ring
+Fact; IP_ZONE_1_X1              ;The Stranger;River Lowlands; Reach River Lowlands
+Fact; IP_ZONE_1_X2              ;The Stranger;River Lowlands; Enter Artifact House
+Fact; IP_ZONE_1_STORY_X2        ;The Stranger;River Lowlands; Reel Story 1 (Burned part - 50/72)
+Fact; IP_ZONE_1_STORY_X1        ;The Stranger;River Lowlands; Reel Story 1 (End - 72/72)
+Fact; IP_SARCOPHAGUS_R1         ;The Stranger;River Lowlands; Reel Seal 1 (End - 31/31)
+Fact; IP_ZONE_1_SECRET_X2       ;The Stranger;River Lowlands; Find Secret Area
+Fact; IP_ZONE_1_SECRET_X1       ;The Stranger;River Lowlands; Reel Secret (End - 55/55)
+Fact; IP_ZONE_2_X1              ;The Stranger;Cinder Isles; Reach Cinder Isles
+Fact; IP_ZONE_2_X2              ;The Stranger;Cinder Isles; Find Eye in Burned Building
+Fact; IP_ZONE_2_STORY_X1        ;The Stranger;Cinder Isles; Reel Story 2 (Eye Scanned - 10/99)
+Fact; IP_ZONE_2_STORY_X2        ;The Stranger;Cinder Isles; Reel Story 2 (End - 99/99)
+Fact; IP_SARCOPHAGUS_R2         ;The Stranger;Cinder Isles; Reel Seal 2 (End - 20/20)
+Fact; IP_ZONE_2_SECRET_X2       ;The Stranger;Cinder Isles; Find Secret Area
+Fact; IP_ZONE_2_SECRET_X1       ;The Stranger;Cinder Isles; Reel Secret (End - 84/84)
+Fact; IP_ZONE_2_LIGHTHOUSE_R1   ;The Stranger;Cinder Isles; Tower   ; Discover the Tower Secret using light
+Fact; IP_ZONE_2_LIGHTHOUSE_X2   ;The Stranger;Cinder Isles; Tower   ; Enter the Island Tower Room from the top
+Fact; IP_ZONE_2_LIGHTHOUSE_X1   ;The Stranger;Cinder Isles; Tower   ; Reel Campfires (End - 43/43)
+Fact; IP_ZONE_2_CODE_X1         ;The Stranger;Cinder Isles; Tower   ; Hidden Room - Open Anything
+Fact; IP_ZONE_2_CODE_X2         ;The Stranger;Cinder Isles; Tower   ; Hidden Room - Open Seal Symbol w/ Burned Code
+Fact; IP_ZONE_2_CODE_X3         ;The Stranger;Cinder Isles; Tower   ; Hidden Room - Open Burning Reel Symbol
+Fact; IP_ZONE_3_X1              ;The Stranger;Hidden Gorge; Reach Hidden Gorge
+Fact; IP_ZONE_3_STORY_X2        ;The Stranger;Hidden Gorge; Reel Story 3 (Burned part - 30/84)
+Fact; IP_ZONE_3_STORY_X1        ;The Stranger;Hidden Gorge; Reel Story 3 (End - 84/84)
+Fact; IP_SARCOPHAGUS_R3         ;The Stranger;Hidden Gorge; Reel Seal 3 (End - 20/20)
+Fact; IP_ZONE_3_ENTRANCE_R1     ;The Stranger;Hidden Gorge; Reel Hull Breach (End - 30/30)
+Fact; IP_ZONE_3_SECRET_X2       ;The Stranger;Hidden Gorge; Find Secret Area
+Fact; IP_ZONE_3_SECRET_X1       ;The Stranger;Hidden Gorge; Reel Secret (End - 60/60)
+Fact; IP_ZONE_3_ENTRANCE_X1     ;The Stranger;Hidden Gorge; Laboratory  ; Enter the Damaged Laboratory
+Fact; IP_ZONE_3_ENTRANCE_X2     ;The Stranger;Hidden Gorge; Laboratory  ; Vision Successful Lantern Experiment
+Fact; IP_ZONE_3_ENTRANCE_X3     ;The Stranger;Hidden Gorge; Laboratory  ; Reel Lantern Experiment (Lantern Light Up - 80/95)
+Fact; IP_ZONE_3_LAB_X1          ;The Stranger;Hidden Gorge; Temple      ; Reach the Abandoned Temple
+Fact; IP_ZONE_3_LAB_X3          ;The Stranger;Hidden Gorge; Temple      ; Use the code input Cylinder
+Fact; IP_ZONE_3_LAB_X4          ;The Stranger;Hidden Gorge; Temple      ; Find the Secret Room after entering the correct code
+Fact; IP_MAP_PROJECTION_1_X1    ;The Stranger;Hidden Gorge; Temple      ; Look at the Hint for the Secret of River Lowlands
+Fact; IP_MAP_PROJECTION_2_X1    ;The Stranger;Hidden Gorge; Temple      ; Look at the Hint for the Secret of Cinder Isles
+Fact; IP_MAP_PROJECTION_3_X1    ;The Stranger;Hidden Gorge; Temple      ; Look at the Hint for the Secret of Hidden Gorge
+Fact; IP_ZONE_3_LAB_X2          ;The Stranger;Hidden Gorge; Temple      ; Reel Burning Conspiracy (End - 73/73)
+Fact; IP_ZONE_4_X2              ;The Stranger;Reservoir; Reach the Reservoir
+Fact; IP_PRISON_X1              ;The Stranger;Reservoir; Enter the Bell
+Fact; IP_PRISON_X2              ;The Stranger;Reservoir; Look at the Sarcophagus
+Fact; IP_ZONE_4_X3              ;The Stranger;Reservoir; Look at the Screen in the Code Room
+Fact; IP_ZONE_4_X4              ;The Stranger;Reservoir; Reach the Dam Control Room
+Fact; IP_ZONE_4_STORY_X2        ;The Stranger;Reservoir; Reel Story 4 (Burned part - 2/57)
+Fact; IP_ZONE_4_STORY_X1        ;The Stranger;Reservoir; Reel Story 4 (Bell Lowered in Water - 45/57)
+Fact; IP_DREAM_LAKE_R1          ;The Stranger;Subterranean Lake; Outside - Look into the bell
+Fact; IP_DREAM_LAKE_R2          ;The Stranger;Subterranean Lake; Outside - Watch the Vision
+Fact; IP_DREAM_LAKE_X1          ;The Stranger;Subterranean Lake; Reach Subterranean Lake
+Fact; IP_DREAM_LAKE_X2          ;The Stranger;Subterranean Lake; Attempt to Open the Sealed Sarcophagus
+Fact; IP_ZONE_2_CODE_R1         ;The Stranger;Subterranean Lake; Vision form the Sarcophagus
+Fact; IP_SARCOPHAGUS_X2         ;The Stranger;Subterranean Lake; Talk to the Prisoner
+Fact; IP_SARCOPHAGUS_X3         ;The Stranger;Subterranean Lake; Vision Prisoner Story
+Fact; IP_SARCOPHAGUS_X4         ;The Stranger;Subterranean Lake; Vision Hearthian Story
+Fact; IP_SARCOPHAGUS_X5         ;The Stranger;Subterranean Lake; Vision Prisoner goodbye
+Fact; IP_DREAM_ZONE_1_X1        ;The Stranger;Shrouded Woodlands; Reach Shrouded Woodlands (Trigger house exit)
+Fact; IP_DREAM_ZONE_1_X3        ;The Stranger;Shrouded Woodlands; Find the Bridge to the Wood
+Fact; IP_DREAM_ZONE_1_X2        ;The Stranger;Shrouded Woodlands; Hear the Music in the Wood
+Fact; IP_DREAM_LIBRARY_1_X1     ;The Stranger;Shrouded Woodlands; Archive; Reach Shrouded Woodland's Archive (Trigger elevator shaft)
+Fact; IP_DREAM_LIBRARY_1_X2     ;The Stranger;Shrouded Woodlands; Archive; Open Burned Code
+Fact; IP_DREAM_1_STORY_X1       ;The Stranger;Shrouded Woodlands; Archive; Reel Story 1 (Start - 2/71)
+Fact; IP_DREAM_1_STORY_X2       ;The Stranger;Shrouded Woodlands; Archive; Reel Story 1 (Stranger Construction Complete - 55/71)
+Fact; IP_DREAM_1_RULE_X1        ;The Stranger;Shrouded Woodlands; Archive; Reel Bug Raft (End - 54/54)
+Fact; IP_DREAM_ZONE_2_X1        ;The Stranger;Starlit Cove; Reach Starlit Cove (Trigger house exit)
+Fact; IP_DREAM_ZONE_2_X2        ;The Stranger;Starlit Cove; Find the Alarm (trigger in the Cave)
+Fact; IP_DREAM_ZONE_2_X3        ;The Stranger;Starlit Cove; Find the Burned Building
+Fact; IP_DREAM_ZONE_2_X4        ;The Stranger;Starlit Cove; Enter the Tower Room
+Fact; IP_DREAM_LIBRARY_2_X1     ;The Stranger;Starlit Cove; Archive; Reach Starlit Cove's Archive (Trigger elevator shaft)
+Fact; IP_DREAM_LIBRARY_2_X2     ;The Stranger;Starlit Cove; Archive; Open Burned Code
+Fact; IP_DREAM_2_STORY_X1       ;The Stranger;Starlit Cove; Archive; Reel Story 2 (Start 2/99)
+Fact; IP_DREAM_2_STORY_X2       ;The Stranger;Starlit Cove; Archive; Reel Story 2 (Eye blocked 88/99)
+Fact; IP_DREAM_2_RULE_X1        ;The Stranger;Starlit Cove; Archive; Reel Bug Death (Old Elk Lantern Lights Up 80/93)
+Fact; IP_DREAM_2_RULE_X2        ;The Stranger;Starlit Cove; Archive; Reel Bug Alarm (Elk Red Text 75/78)
+Fact; IP_DREAM_ZONE_3_X1        ;The Stranger;Endless Canyon; Reach Endless Canyon (Trigger house exit)
+Fact; IP_DREAM_ZONE_3_X2        ;The Stranger;Endless Canyon; Find the Painting at the Bottom of the Lodge
+Fact; IP_DREAM_LIBRARY_3_X1     ;The Stranger;Endless Canyon; Archive; Reach Endless Canyon's Archive (Trigger elevator shaft)
+Fact; IP_DREAM_LIBRARY_3_X2     ;The Stranger;Endless Canyon; Archive; Open Burned Code
+Fact; IP_DREAM_3_STORY_X1       ;The Stranger;Endless Canyon; Archive; Reel Story 3 (Start 2/84)
+Fact; IP_DREAM_3_STORY_X2       ;The Stranger;Endless Canyon; Archive; Reel Story 3 (Finish Building Simulation 53/84)
+Fact; IP_DREAM_3_RULE_X1        ;The Stranger;Endless Canyon; Archive; Reel Bug Matrix (Elk Red Text 28/38)
