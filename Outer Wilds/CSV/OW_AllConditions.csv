@@ -1,8 +1,10 @@
-#`THIS IS MAINLY THE RESULT OF DATAMINING AND WASN'T TESTED IN DEPTH`
+#`LIST OF EVERY CONDITION I COULD FIND IN THE GAME, MOST AREN'T INCLUDED BY DEFAULT BECAUSE OF THEIR LACK OF USEFULNESS`
+
+#`THIS IS THE RESULT OF DATAMINING AND HASN'T BEEN TESTED IN DEPTH`
 
 #`USEFUL CONDITIONS`
 Condition; FLEW_TO_SS;                              Useful; Alpha pilot achievement (Fly to the Sun Station)
-Condition; THERE_IS_BUT_VOID;                       Useful; Die hard achievement - (1000 damages healed)
+Condition; THERE_IS_BUT_VOID;                       Useful; Die hard achievement (1000 damages healed)
 Condition; DESTROYED_TIMELINE_LAST_SAVE;            Useful; Destroyed Timeline (can be triggered multiple times)
 Condition; GAME_OVER_LAST_SAVE;                     Useful; Triggered game over
 

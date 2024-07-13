@@ -1,5 +1,5 @@
 Condition; FLEW_TO_SS;                              Alpha pilot achievement (Fly to the Sun Station)
-Condition; THERE_IS_BUT_VOID;                       Die hard achievement - (1000 damages healed)
+Condition; THERE_IS_BUT_VOID;                       Die hard achievement (1000 damages healed)
 Condition; DESTROYED_TIMELINE_LAST_SAVE;            Destroyed Timeline (can be triggered multiple times)
 Condition; GAME_OVER_LAST_SAVE;                     Triggered game over
 ----------------------------------------------------------------------------------------------------
@@ -24,10 +24,10 @@ Signal; 61; Hide & Seek ; Tephra
 Signal; 100; Radio      ; Radio Tower
 Signal; 101; Radio      ; Satellite
 ----------------------------------------------------------------------------------------------------
-Fact; S_SUNSTATION_X1       ;Sun Station; Upper level - Scroll (in wall), -Read 1st node
-Fact; S_SUNSTATION_X4       ;Sun Station; Lower level - Nomai computer - Read any ring
-Fact; S_SUNSTATION_X2       ;Sun Station; Lower level - Ash Twin Stone (on bench) - Read 2nd node
-Fact; S_SUNSTATION_X3       ;Sun Station; Lower level - Ash Twin Stone (on bench) - Read 5th node (left)
+Fact; S_SUNSTATION_X1       ;Sun Station; Upper level Scroll (in wall) - Read 1st node
+Fact; S_SUNSTATION_X4       ;Sun Station; Lower level Nomai computer - Read any ring
+Fact; S_SUNSTATION_X2       ;Sun Station; Lower level Ash Twin Stone (on bench) - Read 2nd node
+Fact; S_SUNSTATION_X3       ;Sun Station; Lower level Ash Twin Stone (on bench) - Read 5th node (left)
 
 Fact; TT_WARP_TOWERS_X1     ;Ash Twin;                  Twins, Brittle Hollow or Sun Station Tower - Any of these 3 texts, Read the 1st node
 Fact; TT_WARP_TOWERS_X2     ;Ash Twin;                  Brittle Hollow tower text - Read 4th node (up)
@@ -170,7 +170,7 @@ Fact; ORBITAL_PROBE_CANNON_X2   ;Orbital Probe Cannon;Control Module    ; Launch
 Fact; ORBITAL_PROBE_CANNON_X3   ;Orbital Probe Cannon;Control Module    ; Launch Module Stone - Read 3rd node 3 (up)
 Fact; OPC_INTACT_MODULE_X1      ;Orbital Probe Cannon;Control Module    ; Position 1 - Read any of the 2 rings
 Fact; OPC_INTACT_MODULE_X2      ;Orbital Probe Cannon;Control Module    ; Position 2 - Read the top or bottom ring
-Fact; OPC_BROKEN_MODULE_X1      ;Orbital Probe Cannon;Launch Module     ; Enter the Launch Module
+Fact; OPC_BROKEN_MODULE_X1      ;Orbital Probe Cannon;Launch Module     ; Enter the Broken Launch Module
 Fact; OPC_BROKEN_MODULE_X2      ;Orbital Probe Cannon;Launch Module     ; Probe Tracking Module Stone (on bench) - Read 4th node
 Fact; OPC_BROKEN_MODULE_X3      ;Orbital Probe Cannon;Launch Module     ; Probe Tracking Module Stone (on bench) - Read 5th node
 

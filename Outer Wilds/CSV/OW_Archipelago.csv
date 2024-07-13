@@ -1,0 +1,26 @@
+#`THIS IS THE RESULT OF DATAMINING AND HASN'T BEEN TESTED`
+
+Condition; HAS_AP_ITEM_LAUNCH_CODES                     ; Launch Codes
+Condition; HAS_AP_ITEM_SPACESUIT                        ; Spacesuit
+Condition; HAS_AP_ITEM_TRANSLATOR                       ; Translator
+Condition; HAS_AP_ITEM_SIGNALSCOPE                      ; Signaloscope
+Condition; HAS_AP_ITEM_SCOUT                            ; Scout
+
+Condition; HAS_AP_ITEM_GHOST_MATTER_WAVELENGTH          ; Ghost Matter Wavelength
+Condition; HAS_AP_ITEM_NOMAI_WARP_CODES                 ; Nomai Warp Codes
+Condition; HAS_AP_ITEM_WARP_CORE_INSTALLATION_MANUAL    ; Warp Core Installation Manual
+Condition; HAS_AP_ITEM_TORNADO_AERODYNAMIC_ADJUSTMENTS  ; Tornado Aerodynamic Adjustments
+Condition; HAS_AP_ITEM_SILENT_RUNNING_MODE              ; Silent Running Mode
+Condition; HAS_AP_ITEM_ELECTRICAL_INSULATION            ; Electrical Insulation
+Condition; HAS_AP_ITEM_COORDINATES                      ; Coordinates
+
+Condition; HAS_AP_ITEM_IMAGING_RULE                     ; Imaging Rule
+Condition; HAS_AP_ITEM_ENTANGLEMENT_RULE                ; Entanglement Rule
+Condition; HAS_AP_ITEM_SHRINE_DOOR_CODES                ; Shrine Door Codes
+
+Condition; HAS_AP_ITEM_DISTRESS_BEACON_FREQUENCY        ; Distress Beacon Frequency
+Condition; HAS_AP_ITEM_QUANTUM_FLUCTUATIONS_FREQUENCY   ; Quantum Fluctuations Frequency
+Condition; HAS_AP_ITEM_HIDE_AND_SEEK_FREQUENCY          ; Hide and Seek Frequency
+Condition; HAS_AP_ITEM_FELDSPARS_SIGNAL                 ; Feldspars Signal
+Condition; HAS_AP_ITEM_QUANTUM_MOON_SIGNAL              ; Quantum Moon Signal
+Condition; HAS_AP_ITEM_ESCAPE_POD_3_SIGNAL              ; Escape Pod 3 Signal

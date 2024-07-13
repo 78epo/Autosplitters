@@ -13,7 +13,8 @@ __Features:__<br>
 * Pause the timer when the game is loading [after a death, after the status cutscene, when warping to the eye].<br>
 * Start the run.<br>
 * Choose when you want to split/reset *(+ some other details)* in the settings.
-* Mod compatibility and possibility to create splits for mods (see [CSV](/CSV))
+* Mod compatibility and possibility to create splits for mods (see [CSV](/CSV))<br>
+*Note: Shiplog and Mod related splits cannot be modified on the fly, you'll need to restart your run for any change to be registered*
 <br>
 
 ## How to use it?
