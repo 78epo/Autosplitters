@@ -1,0 +1,63 @@
+#`Work in progress`
+#`THIS IS THE RESULT OF DATAMINING AND HASN'T BEEN TESTED IN DEPTH`
+
+Condition; CODEX_TRAILS_ACTIVATED
+Condition; CODEX_ENTERED_TESSERACT
+Condition; CODEX_MISSING_CAMPFIRE
+Condition; DENWA_RENJI(KARI)_ACTIVATED
+
+Fact; codex_flashback_fact                      ; See the death hint
+
+Fact; codex_projection_rumor                    ; Projection; projection_rumor
+Fact; codex_projection_fact                     ; Projection; projection_fact
+Fact; codex_projection_projection_fact          ; Projection; projection_projection_fact
+Fact; codex_projection_text_fact                ; Projection; projection_text_fact
+
+Fact; codex_ember_signal_rumor                  ; Ember Twin; ember_signal_rumor
+Fact; codex_ember_memorial                      ; Ember Twin; ember_memorial
+Fact; codex_ember_matter                        ; Ember Twin; ember_matter
+Fact; codex_ember_shuttle                       ; Ember Twin; ember_shuttle
+Fact; codex_ember_cairns                        ; Ember Twin; ember_cairns
+Fact; codex_ember_cairns_safeguards             ; Ember Twin; ember_cairns_safeguards
+Fact; codex_ember_cairns_safeguard_archivist    ; Ember Twin; ember_cairns_safeguard_archivist
+Fact; codex_ember_symbols                       ; Ember Twin; ember_symbols
+Fact; codex_ember_hologram                      ; Ember Twin; ember_hologram
+
+Fact; codex_bramble_signal_rumor                ; Dark Bramble; bramble_signal_rumor 
+Fact; codex_bramble_station                     ; Dark Bramble; bramble_station
+Fact; codex_bramble_research                    ; Dark Bramble; bramble_research
+Fact; codex_bramble_scroll                      ; Dark Bramble; bramble_scroll
+Fact; codex_bramble_symbols                     ; Dark Bramble; bramble_symbols
+Fact; codex_bramble_hologram                    ; Dark Bramble; bramble_hologram
+
+Fact; codex_interloper_rumor                    ; Interloper; interloper_rumor
+Fact; codex_interloper_recorder_warning         ; Interloper; interloper_recorder_warning
+
+Fact; codex_anomaly_rumor                       ; Anomaly; anomaly_rumor
+Fact; codex_anomaly_fact                        ; Anomaly; anomaly_fact
+`Merge?`
+Fact; codex_lingering_chime_tesseract           ; Lingering Chime; chime_tesseract
+Fact; codex_lingering_chime_fact                ; Lingering Chime; chime_fact
+Fact; codex_lingering_chime_material            ; Lingering Chime; chime_material
+Fact; codex_lingering_chime_upper_rumor         ; Lingering Chime; chime_upper_rumor
+Fact; codex_lingering_chime_water               ; Lingering Chime; chime_water
+Fact; codex_lingering_chime_antenna             ; Lingering Chime; chime_antenna
+Fact; codex_lingering_chime_signal              ; Lingering Chime; chime_signal
+Fact; codex_lingering_chime_trails_activator    ; Lingering Chime; chime_trails_activator
+Fact; codex_lingering_chime_no_sun_fact         ; Lingering Chime; chime_no_sun_fact
+Fact; codex_lingering_chime_no_sun_complete     ; Lingering Chime; chime_no_sun_complete
+Fact; codex_lingering_chime_population_fact     ; Lingering Chime; chime_population_fact
+Fact; codex_lingering_chime_population_trails   ; Lingering Chime; chime_population_trails
+Fact; codex_lingering_chime_population_complete ; Lingering Chime; chime_population_complete
+Fact; codex_lingering_chime_spacecraft_fact     ; Lingering Chime; chime_spacecraft_fact
+Fact; codex_lingering_chime_spacecraft_trails   ; Lingering Chime; chime_spacecraft_trails
+Fact; codex_lingering_chime_spacecraft_complete ; Lingering Chime; chime_spacecraft_complete
+Fact; codex_lingering_chime_lower_rumor         ; Lingering Chime; chime_lower_rumor
+Fact; codex_lingering_chime_lower               ; Lingering Chime; chime_lower
+
+Fact; codex_astral_codex_bramble_rumor          ; Astral Codex; codex_bramble_rumor
+Fact; codex_astral_codex_ember_rumor            ; Astral Codex; codex_ember_rumor
+Fact; codex_astral_codex_galaxy                 ; Astral Codex; codex_galaxy
+Fact; codex_astral_codex_species                ; Astral Codex; codex_species
+Fact; codex_astral_codex_environments           ; Astral Codex; codex_environments
+Fact; codex_astral_codex_fact                   ; Astral Codex; codex_fact

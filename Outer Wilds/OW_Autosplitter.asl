@@ -1,12 +1,12 @@
 //Download dbgview to see the comments.
 state("OuterWilds") {}
 
-//1.3.0 -Adding full 100% splits with descriptions + support for custom settings based on CSV files
+//1.3.0 -Added full 100% splits with descriptions + support for custom settings based on CSV files
 //1.2.9 -Scanning quality and mod compatibility improved + now async. onStart, onSplit, onReset implemented
 //1.2.8 -Added an error message when scanning fails. Reworked the facts splits so that they work regardless of the savefile organisation
 //1.2.7 -Reworked the splits to better match current usage, added death splits. Reworked scanning so that it stops searching if the target is not found
 //1.2.6 -Reworked timer behaviour on the menu and added an option for categories using Menu Storage
-//1.2.5 -Updated for the 1.1.13 version.
+//1.2.5 -Updated for the 1.1.13 version
 //1.2.4 -Updated for the 1.1.12 version. Now Works for 1.0.7, 1.1.10, 1.1.11 & 1.1.12
 //1.2.3 -Reworked 100% Splits & completed Descriptions for the Stranger's Facts + WarpCore split fix + Physics rate warning
 //1.2.2 -Added 100% Splits & Signals Splits + an option to reset your savefile automatically + a lot of small stuff and fixes
@@ -18,7 +18,7 @@ state("OuterWilds") {}
 //1.1.2 -Changed the "_firstDeath" split into 3 splits : -Loss of HP -Impact -Anglerfish
 //1.1.1 -The "warp core related" splits can now be triggered again after starting a new expedition. the _exitWarp split is now triggered at the end of the warping animation
 //1.1.0 -Added Splits and Options (too much to list)
-//1.0.0 Initial release
+//1.0.0 -Initial release
 
 //Launched when the script first loads (so only once)
 startup {

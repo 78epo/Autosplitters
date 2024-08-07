@@ -6,7 +6,7 @@ These CSV files contains a list of Conditions, Signals and Facts that will becom
 `Fact; CT_CHERT_X1; Ember Twin; Chert's Camp; Talk to Chert`<br>
 Will become this:<br>
 ![Chert.png](https://github.com/78epo/Autosplitters/blob/main/Outer%20Wilds/CSV/Images_RM/CSV_Chert.png)<br>
-Now if activated it will split when CT_CHERT_X1 is unlocked in the savefile<br>
+Now if you turn "Talk to Chert" on the autosplitter will look for the moment CT_CHERT_X1 is unlocked in the savefile, and split when it is<br>
 
 
 ## HOW TO USE IT?
