@@ -24,3 +24,15 @@ Condition; HAS_AP_ITEM_HIDE_AND_SEEK_FREQUENCY          ; Hide and Seek Frequenc
 Condition; HAS_AP_ITEM_FELDSPARS_SIGNAL                 ; Feldspars Signal
 Condition; HAS_AP_ITEM_QUANTUM_MOON_SIGNAL              ; Quantum Moon Signal
 Condition; HAS_AP_ITEM_ESCAPE_POD_3_SIGNAL              ; Escape Pod 3 Signal
+
+Condition; HAS_AP_ITEM_DEEP_SPACE_RADIO_FREQUENCY       ; DLC   ; Deep Space Radio Frequency
+Condition; HAS_AP_ITEM_CONTROL_SENSOR_WAVELENGTH        ; DLC   ; Control Sensor Wavelength
+Condition; HAS_AP_ITEM_BREACH_OVERRIDE_CODES            ; DLC   ; Breach Override Codes
+Condition; HAS_AP_ITEM_RIVER_LOWLANDS_PAINTING_CODE     ; DLC   ; Painting Code - River LowLands
+Condition; HAS_AP_ITEM_CINDER_ISLES_PAINTING_CODE       ; DLC   ; Painting Code - Cinder Isles
+Condition; HAS_AP_ITEM_HIDDEN_GORGE_PAINTING_CODE       ; DLC   ; Painting Code - Hidden Gorge
+Condition; HAS_AP_ITEM_DREAM_TOTEM_PATCH                ; DLC   ; Patch - Dream Totem
+Condition; HAS_AP_ITEM_RAFT_DOCKS_PATCH                 ; DLC   ; Patch - Raft Docks
+Condition; HAS_AP_ITEM_RAFT_LIMBO_PATCH                 ; DLC   ; Patch - Raft Limbo
+Condition; HAS_AP_ITEM_PROJECTION_RANGE_PATCH           ; DLC   ; Patch - Projection Range
+Condition; HAS_AP_ITEM_ALARM_BYPASS_PATCH               ; DLC   ; Patch - Alarm Pypass
