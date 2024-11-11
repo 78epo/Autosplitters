@@ -2,7 +2,13 @@
 
 Condition; HAS_AP_ITEM_LAUNCH_CODES                     ; Launch Codes
 Condition; HAS_AP_ITEM_SPACESUIT                        ; Spacesuit
-Condition; HAS_AP_ITEM_TRANSLATOR                       ; Translator
+Condition; HAS_AP_ITEM_TRANSLATOR                       ; Translator    ; All-in-one Translator
+Condition; HAS_AP_ITEM_TRANSLATOR_HOURGLASS_TWINS       ; Translator    ; Translator - Hourglass Twins
+Condition; HAS_AP_ITEM_TRANSLATOR_TIMBER_HEARTH         ; Translator    ; Translator - Timber Hearth
+Condition; HAS_AP_ITEM_TRANSLATOR_BRITTLE_HOLLOW        ; Translator    ; Translator - Brittle Hollow
+Condition; HAS_AP_ITEM_TRANSLATOR_GIANTS_DEEP           ; Translator    ; Translator - Giant's Deep
+Condition; HAS_AP_ITEM_TRANSLATOR_DARK_BRAMBLE          ; Translator    ; Translator - Dark Bramble
+Condition; HAS_AP_ITEM_TRANSLATOR_OTHER                 ; Translator    ; Translator - Other
 Condition; HAS_AP_ITEM_SIGNALSCOPE                      ; Signaloscope
 Condition; HAS_AP_ITEM_SCOUT                            ; Scout
 
@@ -36,3 +42,13 @@ Condition; HAS_AP_ITEM_RAFT_DOCKS_PATCH                 ; DLC   ; Patch - Raft D
 Condition; HAS_AP_ITEM_RAFT_LIMBO_PATCH                 ; DLC   ; Patch - Raft Limbo
 Condition; HAS_AP_ITEM_PROJECTION_RANGE_PATCH           ; DLC   ; Patch - Projection Range
 Condition; HAS_AP_ITEM_ALARM_BYPASS_PATCH               ; DLC   ; Patch - Alarm Pypass
+
+Condition; HAS_AP_ITEM_AC_ASTRAL_CODEC_FREQUENCY                   ; Mods  ; Astral Codec - Astral Codec Frequency
+Condition; HAS_AP_ITEM_FQ_HEARTHIAN_RADIO_FREQUENCY                ; Mods  ; Fret's Quest - Hearthian Radio Frequency
+Condition; HAS_AP_ITEM_HN1_NEIGHBORS_DISTRESS_SIGNAL_FREQUENCY     ; Mods  ; Hearth's Neighbor - Neighbor's Distress Frequency
+Condition; HAS_AP_ITEM_HN1_LAVA_CORE_SIGNALS_FREQUENCY             ; Mods  ; Hearth's Neighbor - Lava Core Frequency
+Condition; HAS_AP_ITEM_HN1_GALACTIC_COMMUNICATION_FREQUENCY        ; Mods  ; Hearth's Neighbor - Galactic Communication Frequency
+Condition; HAS_AP_ITEM_HN2_MEMORY_CUBE_INTERFACE                   ; Mods  ; Hearth's Neighbor 2 - Memory Cube Interface
+Condition; HAS_AP_ITEM_HN2_LIBRARY_ACCESS_CODE                     ; Mods  ; Hearth's Neighbor 2 - Library Access Code
+Condition; HAS_AP_ITEM_HN2_DORMITORY_ACCESS_CODE                   ; Mods  ; Hearth's Neighbor 2 - Dormitory Access Code
+Condition; HAS_AP_ITEM_HN2_ENGINE_ACCESS_CODE                      ; Mods  ; Hearth's Neighbor 2 - Engine Access Code
