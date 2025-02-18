@@ -30,8 +30,8 @@ startup {
 		print("Timing Method Changed!");
 	}
 
-	vars.name = "Outer Wilds Autosplitter 1.3.0";
-	vars.ver = new string[] {"1.0.7", "1.1.10+", "1.1.12", "1.1.13+"};
+	vars.name = "Outer Wilds Autosplitter 1.3.0b";
+	vars.ver = new string[] {"1.0.7", "1.1.10+", "1.1.12", "1.1.13+", "1.1.15"};
 	vars.timer = new TimerModel { CurrentState = timer };
 	vars.startupTime = DateTime.Now;
 	vars.debug = false;//Skip parts of the program, useful to test things
@@ -399,8 +399,10 @@ init {
 		version = vars.ver[1];
 	else if (MD5Hash == "75425F7225EC5C685EC183E9E2FEFC68" || MD5Hash == "B56866911AECACA1488891A8A32C9BEE" || MD5Hash == "8D09BEF112436A190C1464D82E35F119")
 		version = vars.ver[2];
-	else if (MD5Hash == "5FFEDBC8FB33E5CE47CC9D6DE40E4A08" || MD5Hash == "6F588ABC1E5E91668DE657CFB86FA169" || MD5Hash == "7D64EC17914879EB2541002E4105C1F7" || MD5Hash == "24FEAE80D912656ACA721E7729D03554" || MD5Hash == "F31F5C33D045B8A3F2975702D3B77CAF")
+	else if (MD5Hash == "5FFEDBC8FB33E5CE47CC9D6DE40E4A08" || MD5Hash == "6F588ABC1E5E91668DE657CFB86FA169" || MD5Hash == "7D64EC17914879EB2541002E4105C1F7")
 		version = vars.ver[3];
+    else if (MD5Hash == "24FEAE80D912656ACA721E7729D03554" || MD5Hash == "F31F5C33D045B8A3F2975702D3B77CAF")
+        version = vars.ver[4];
 	else
 		version = "unknown";
 
@@ -581,7 +583,7 @@ init {
 			vars.inBrambleDimension = new MemoryWatcher<bool>(new DeepPointer(Locator + 0xB8, 0x54));
 			//Locator - 0xB8 _playerSectorDetector - 0x55 _inVesselDimension
 			vars.inVesselDimension = new MemoryWatcher<bool>(new DeepPointer(Locator + 0xB8, 0x55));
-			if (version == "1.1.13+") {
+			if (version == "1.1.13+" || version == "1.1.15") {
 				//Locator - 0xD0 _audioMixer - 0xD2 _isSleepingAtCampfire
 				vars.isSleepingAtCampfire = new MemoryWatcher<bool>(new DeepPointer(Locator + 0xD0, 0xD2));
 				//---
@@ -594,7 +596,7 @@ init {
 				vars.isRealityShatterEffectComplete = new MemoryWatcher<bool>(new DeepPointer(Locator + 0x158, 0x40, 0x145));
 				//---
 				//Locator - 0x230 _quantumMoon - 0x15C _isPlayerInside
-				vars.inQuantumMoon = new MemoryWatcher<bool>(new DeepPointer(Locator + 0x230, 0x15C));
+				vars.inQuantumMoon = new MemoryWatcher<bool>(new DeepPointer(Locator + 0x230 + (version == "1.1.15" ? 0x8 : 0x0), 0x15C));//0x238 instead of 0x230 in 1.1.15
 			} else {
 				//Locator - 0xD0 _audioMixer - 0xCA _isSleepingAtCampfire
 				vars.isSleepingAtCampfire = new MemoryWatcher<bool>(new DeepPointer(Locator + 0xD0, 0xCA));
