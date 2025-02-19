@@ -251,14 +251,14 @@ startup {
 			vars.createSetting("_eyeMap", "Observe the map in the observatory", "", true);
 			vars.createSetting("_eyeInstruments", "Start the 'Instrument Hunt' / Reach the campfire", "", true);
 			settings.CurrentDefaultParent = "DeathSplits";
-			vars.createSetting("_deathHP", "Death from HP loss (I.E campfire or ghost matter)", "", false);
+			vars.createSetting("_deathHP", "Death from HP loss (campfire, ghost matter, etc...)", "", false);
 			vars.createSetting("_deathImpact", "Death from Impact", "", false);
 			vars.createSetting("_deathOxygen", "Death from Oxygen deprivation (air or water)", "", false);
 			vars.createSetting("_deathSun", "Death from the Sun", "", false);
 			vars.createSetting("_deathSupernova", "Death from the Supernova", "", false);
 			vars.createSetting("_deathFish", "Death from an Anglerfish", "", false);
 			vars.createSetting("_deathCrushed", "Death from being Crushed (rising sand)", "", false);
-			vars.createSetting("_deathElevator", "Death from a an elevator", "", false);
+			vars.createSetting("_deathElevator", "Death from an elevator", "", false);
 			vars.createSetting("_deathLava", "Death from Lava (hollow's lantern)", "", false);
 			vars.createSetting("_deathDream", "Die in a Dream after dying in real life", "", false);
 			vars.createSetting("_deathDreamExplosion", "Die from the explosion caused by a faulty artifact", "", false);
