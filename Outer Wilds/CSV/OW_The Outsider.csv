@@ -1,0 +1,87 @@
+#`THIS IS THE RESULT OF DATAMINING AND HASN'T BEEN TESTED IN DEPTH`
+
+Fact; DB_NORTHERN_OBSERVATORY_R1; Northern Observatory; Rumor 1 - There's an Observatory on Dark Bramble's north pole with two security measures keeping the door shut.
+#`Same as DB_STUDY_TOWER_X3`
+Fact; DB_NORTHERN_OBSERVATORY_R2; Northern Observatory; Rumor 2 - Datura discovered something that disturbed him, but he had to go his Observatory to confirm it.
+Fact; DB_NORTHERN_OBSERVATORY_X1; Northern Observatory; Fact 1 - I found Datura's body...
+#`DB_NORTHERN_OBSERVATORY_X2 is unused, commented out`
+Fact; DB_NORTHERN_OBSERVATORY_X3; Northern Observatory; Fact 3 - At his projection pool, Datura attempted to warn the others of the Interloper, but they already knew about it.
+Fact; DB_NORTHERN_OBSERVATORY_X4; Northern Observatory; Fact 4 - Datura was able to get Solanum to be at the Quantum Moon's sixth location as the Interloper arrived.
+
+Fact; DB_STUDY_TOWER_X1; Study Tower; Fact 1 - A Nomai named Datura discovered a spherical region in space where the stars flickered occasionally.
+Fact; DB_STUDY_TOWER_X2; Study Tower; Fact 2 - Upon meeting a being from another species, Datura helped build them a house at the South Pole.
+Fact; DB_STUDY_TOWER_X3; Study Tower; Fact 3 - Datura discovered something that disturbed him, but he had to go his Observatory to confirm it.
+
+Fact; DB_STUDY_TOWER_TOP_R1; Top of the Tower; Rumor 1 - The stairs to the top of the Study Tower have collapsed.
+Fact; DB_STUDY_TOWER_TOP_R2; Top of the Tower; Rumor 2 - I can see a wall with Nomai text through the window.
+Fact; DB_STUDY_TOWER_TOP_X1; Top of the Tower; Fact 1 - Datura added a second security measure to his Observatory. The door will remain shut if another space ship is on Dark Bramble's surface.
+
+#`Same as DB_STUDY_TOWER_X2`
+Fact; DB_BRAMBLE_VILLAGE_R1; Bramble Village; Rumor 1 - Upon meeting a being from another species, Datura helped build them a house at the South Pole.
+Fact; DB_BRAMBLE_VILLAGE_R2; Bramble Village; Rumor 2 - Datura built a shelter for himself at the south pole.
+Fact; DB_BRAMBLE_VILLAGE_X1; Bramble Village; Fact 1 - Datura teached Friend the Nomai language, and they teached him art.
+Fact; DB_BRAMBLE_VILLAGE_X2; Bramble Village; Fact 2 - Datura argued at Yarrow that they should be finding a way to leave this star system. Datura, promising Filix he would return, left to Dark Bramble to find the Vessel.
+Fact; DB_BRAMBLE_VILLAGE_X3A; Bramble Village; Fact 3A - Datura is pessimistic about the Eye, and believes it will destroy the universe if someone interacts with it.
+Fact; DB_BRAMBLE_VILLAGE_X3B; Bramble Village; Fact 3B - Friend is optimistic about the Eye, and believes it is the creator of universes.
+Fact; DB_BRAMBLE_VILLAGE_X4; Bramble Village; Fact 4 - In Friend's House, I found a staircase that leads down abruptly to a painting of a terrestrial world, with a blue ringed gas giant in the sky.
+
+#`Same as DB_BRAMBLE_VILLAGE_X4?`
+Fact; DB_SECRET_ROOM_R1; Secret Room; Rumor 1 - In Friend's House, I found a staircase that leads down abruptly to a painting of a terrestrial world, with a blue ringed gas giant in the sky.
+Fact; DB_SECRET_ROOM_X1; Secret Room; Fact 1 - A secret room in Friend's House contains an image revealing a hidden path behind a jellyfish surrounded by ice.
+Fact; DB_SECRET_ROOM_X2; Secret Room; Fact 2 - Datura and Friend discussed their theories about the Eye, and suggested that they may both be partially true.
+
+#`Same as DB_SECRET_ROOM_X1`
+Fact; DB_SIMULATION_HOUSE_R1; Secluded Structure; Rumor 1 - A secret room in Friend's House contains an image revealing a hidden path behind a jellyfish surrounded by ice.
+Fact; DB_SIMULATION_HOUSE_X1; Secluded Structure; Fact 1 - The entrance to this building appears to have been sealed. Datura theorised that only an explosion could create an opening.
+Fact; DB_SIMULATION_HOUSE_X2; Secluded Structure; Fact 2 - If I want to return here, I should use the Mark Location on HUD feature, like Slate told me about.
+
+#`Same as DB_SIMULATION_HOUSE_X1`
+Fact; DB_SIMULATION_HOUSE_INSIDE_R1; Inside the Structure; Rumor 1 - The entrance to this building appears to have been sealed. Datura theorised that only an explosion could create an opening.
+Fact; DB_SIMULATION_HOUSE_INSIDE_X1; Inside the Structure; Fact 1 - I found the remains of Friend... holding an artifact next to a green fire.
+Fact; DB_SIMULATION_HOUSE_INSIDE_X2; Inside the Structure; Fact 2 - Datura was curious what Friend was hiding from him and sneaked here. He found an artifact and green fire, tripped and knocked himself out, awaking on what appeared to be a different planet.
+Fact; DB_SIMULATION_HOUSE_INSIDE_X3; Inside the Structure; Fact 3 - Datura came across Friend's elders, and accidentally rang an alarm bell which woke one up.
+Fact; DB_SIMULATION_HOUSE_INSIDE_X4; Inside the Structure; Fact 4 - He was awoken by Friend, with some others having arrived on Dark Bramble.
+Fact; DB_SIMULATION_HOUSE_INSIDE_X5; Inside the Structure; Fact 5 - They separated them from each other, containing Friend by sealing the entrance.
+
+Fact; DB_SHUTTLE_CRUSHER_R1; Shuttle Crusher; Rumor 1 - Datura landed on Dark Bramble in a shuttle, which he didn't know what to do with.
+Fact; DB_SHUTTLE_CRUSHER_X1; Shuttle Crusher; Fact 1 - A Nomai called Datura created this to destroy his shuttle. After damaging the shuttle, its alarm went off, and exploded a while after.
+Fact; DB_SHUTTLE_CRUSHER_X2; Shuttle Crusher; Fact 2 - Someone referred to as 'Friend' also wanted to destroy their ship. After damaging their ship, its alarm went off too. Datura remembered that he should just stand back and wait until it exploded.
+Fact; DB_SHUTTLE_CRUSHER_X3; Shuttle Crusher; Fact 3 - I used a switch to activate the crusher.
+Fact; DB_SHUTTLE_CRUSHER_X4; Shuttle Crusher; Fact 4 - In a recording, Datura told his daughter Solanum about the Vessel crash.
+
+Fact; DB_PROJECTION_POOL_HOUSE_R1; Projection Pool House; Rumor 1 - A structure next to the Study Tower appears to have broken off and fallen into the planet somewhere.
+Fact; DB_PROJECTION_POOL_HOUSE_R2; Projection Pool House; Rumor 2 - Datura built a projection pool on an island west of his landing site to be able to talk to his wife and daughter.
+Fact; DB_PROJECTION_POOL_HOUSE_X1; Projection Pool House; Fact 1 - Datura tried to leave Dark Bramble, but both shuttles were in use at that time.
+Fact; DB_PROJECTION_POOL_HOUSE_X2; Projection Pool House; Fact 2 - Datura asked Bells to tell Solanum there was no need to rush, and to tell Filix that he was sorry and would see her again soon.
+Fact; DB_PROJECTION_POOL_HOUSE_X3; Projection Pool House; Fact 3 - In a damaged stone, Datura called the others to warn them about something. But, they already knew about it.
+Fact; DB_PROJECTION_POOL_HOUSE_X3_ATP; Projection Pool House; Fact 3 (ATP) - In the undamaged stone, Datura tried to warn the others about the Interloper. But, they already knew about it.
+Fact; DB_PROJECTION_POOL_HOUSE_X4; Projection Pool House; Fact 4 - Datura and Solanum planned to meet after he had finished something, and after she had returned from the Quantum Moon.
+
+Fact; DB_HUNTING_BLIND_R1; Hunting Blind; Rumor 1 - Datura, needing a food supply, considered eating... the Anglerfish.
+Fact; DB_HUNTING_BLIND_X1; Hunting Blind; Fact 1 - Datura went exploring the depths of Dark Bramble. Partly to find... food.
+Fact; DB_HUNTING_BLIND_X2A; Hunting Blind; Fact 2A - Datura also discovered that Anglerfish are blind.
+Fact; DB_HUNTING_BLIND_X2B; Hunting Blind; Fact 2B - On telling the discovery to Yarrow, he was interested at first, but the conversation turned into a big argument.
+Fact; DB_HUNTING_BLIND_X3; Hunting Blind; Fact 3 - Datura found the remains of the Nomai of Escape Pod 3, and his clan's leader, Escall.
+
+Fact; DB_DRIFTING_DEATH_R1; The Collector Mural; Rumor 1 - Datura mentioned something called 'The Collector,' but didn't elaborate.
+Fact; DB_DRIFTING_DEATH_X1; The Collector Mural; Fact 1 - A mysterious planet that spewed out a deadly substance that was contained in water worlds and comets.
+
+Fact; DB_INITIAL_CAMP_R1; Initial Campsite; Rumor 1 - A campsite next to the Shuttle Crusher that I didn't explore.
+Fact; DB_INITIAL_CAMP_X1; Initial Campsite; Fact 1 - Where a Nomai named 'Datura' first landed on Dark Bramble and set up camp.
+Fact; DB_INITIAL_CAMP_X2; Initial Campsite; Feldspar left a recording here saying they explored around and had 'some ideas' on how to get into places, and offers his help if I want it.
+
+Fact; PS_POWER_STATION_R1; Bramble Power Station; Rumor 1 - I fired a scout through a bramble seed and it exited out of another somewhere.
+Fact; PS_POWER_STATION_X1; Bramble Power Station; Fact 1 - A power station that uses Bramble Seeds to connect all locations on Dark Bramble to a power source.
+Fact; PS_POWER_STATION_X2; Bramble Power Station; Fact 2 - According to a Nomai computer, the 'Gravity Stability System' has been disabled by a recent Coronal Mass Ejection from the sun that hit Dark Bramble.
+Fact; PS_POWER_STATION_X3; Bramble Power Station; Fact 3 - I used a switch to turn off power to one of the locations.
+Fact; PS_POWER_STATION_X4; Bramble Power Station; Fact 4 - I fired a scout through a bramble seed and it exited out of another on Dark Bramble.
+
+Fact; OUTSIDER_EYE_OTU_R1; Eye of the Universe; Rumor 1 - The Eye. Is it a creator or a destroyer of universes? ...Do I want to find out?
+Fact; OUTSIDER_EYE_OTU_X1; Eye of the Universe; Fact 1 - If you are reading this, I assume you have gotten inside the Northern Observatory and have seen the new ending at the Eye. Thank you so much for playing The Outsider! I hope you enjoyed it!
+
+#`Same (almost) as DB_SIMULATION_HOUSE_INSIDE_X1`
+Fact; IP_DREAM_HOME_R1; Cliffside Home; Rumor 1 - I found... the remains of Friend, holding an artifact next to a green fire.
+Fact; IP_DREAM_HOME_X1; Cliffside Home; Fact 1 - I met Friend! They had to communicate using the Nomai language, as I can't translate theirs.
+Fact; IP_DREAM_HOME_X2; Cliffside Home; Fact 2 - For one of the security measures, Datura used a quantum shard to effect the Northern Observatory's door, so I must not be looking at the door when entering.
+Fact; IP_DREAM_HOME_X3; Cliffside Home; Fact 3 - The Prisoner released the Eye's signal briefly and was contained in the simulation. He was planned to be released into just the simulation with the others.
+Fact; IP_DREAM_HOME_X4; Cliffside Home; Fact 4 - By the time the Nomai arrived, Friend's elders had 'decayed' into the simulation. Only a small group of the youngest were still alive outside.
